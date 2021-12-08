@@ -1,8 +1,4 @@
-import Hey from "./Hey"
-import Hey2 from "./Hey2"
 
-export {
-    Hey2
-}
+import Classzu from "./main";
 
-export default Hey
+export default Classzu;
