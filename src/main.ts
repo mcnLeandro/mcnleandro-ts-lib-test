@@ -37,5 +37,4 @@ export default class Classzu {
         stage.add(layer);
 
     }
-
 }
