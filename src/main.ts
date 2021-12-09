@@ -13,7 +13,8 @@ export default class Classzu {
     }
     public setup(id:string) {
         const element: HTMLElement | null = document.getElementById(id)
-        if(element === null) throw Error('Cannot find HTMLElement.')
+        if (element === null) throw Error('Cannot find HTMLElement.')
+
         const stage = new Konva.Stage({
             container: id,
             width: element.clientWidth,
